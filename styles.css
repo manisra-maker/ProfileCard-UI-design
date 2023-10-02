@@ -1,44 +1,43 @@
-*{
-    margin: 0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: "Poppins" , sans-serif; 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
 }
-body{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* google fonts used here */
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
-body{
-    height: 100vh;
-    background-image: url("pexels-andrew-neel-3178786.jpg");
-    background-size: cover;
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap");
+body {
+  height: 100vh;
+  background-image: url("pexels-andrew-neel-3178786.jpg");
+  background-size: cover;
 }
-.profile-card{
-    max-width: 370px;
-    width: 100%;
-    background-color: aliceblue;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    padding: 25px;
-    border-radius: 25px;
+.profile-card {
+  max-width: 370px;
+  width: 100%;
+  background-color: aliceblue;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 25px;
 }
 .image {
-    position: relative; /*takes entire width of page */
-    height: 150px;
-    width: 150px;
-    border: 5px solid;
-    border-radius: 50%;
-    padding: 10px;
-    background-color: #fc8f00;
-    border-color:rgb(255, 72, 0);
+  position: relative; /*takes entire width of page */
+  height: 150px;
+  width: 150px;
+  border: 5px solid;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #fc8f00;
+  border-color: rgb(255, 72, 0);
 }
-.image .profile_image{
-    height: 100%;
-    width:100%;
-    object-fit:cover;
-    padding: 5px;
+.image .profile_image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 5px;
 }
-
